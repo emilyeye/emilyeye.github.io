@@ -1,17 +1,17 @@
-title:            Scribble
-description:      A jekyll theme. Because I scribble.
-url:              # Site url, without a slash at the end.
-signoff:          # Your name.
-disqus_shortname: # disqus comment thread for post header options. ( leave blank if unwanted. )
-facebook_appid:   # appid for like button, remove from /_includes/share.html if unwanted.
-google_analytics: # set tracking, remove from /javascripts/basic.js if unwanted.
+title:            A humanist learns to code
+description:      A blog about learning to code on FreeCodeCamp as someone from a humanities and social science background.
+url:              http://emilyeye.github.io/
+signoff:          emilyeye
+disqus_shortname: emilyeye
+facebook_appid:   821309421312495 # appid for like button, remove from /_includes/share.html if unwanted.
+google_analytics: UA-72213722-1 # set tracking, remove from /javascripts/basic.js if unwanted.
 
 links:
   - name:         About
     url:          /about
   - name:         Blog
     url:          http://emilyeye.github.io
-    external:     true
+    external:     false
   - name:         GitHub
     url:          http://github.com/emilyeye
     external:     true
