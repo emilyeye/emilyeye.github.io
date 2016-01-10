@@ -15,6 +15,8 @@ links:
   - name:         GitHub
     url:          http://github.com/emilyeye
     external:     true
+  - name:         <img src"/images/rss.png"> Feed
+    url:          /feed.xml
 highlighter:      pygments
 permalink:        pretty
 markdown:         redcarpet
