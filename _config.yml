@@ -2,7 +2,7 @@ title:            A humanist learns to code
 description:      A blog about learning to code on FreeCodeCamp as someone from a humanities and social science background.
 url:              #http://emilyeye.github.io/
 signoff:          emilyeye
-disqus_shortname: emilyeye
+disqus_shortname: eyecode
 facebook_appid:   821309421312495 # appid for like button, remove from /_includes/share.html if unwanted.
 google_analytics: UA-72213722-1 # set tracking, remove from /javascripts/basic.js if unwanted.
 
