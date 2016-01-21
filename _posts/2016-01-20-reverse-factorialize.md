@@ -36,9 +36,10 @@ I chose to solve this challenge with a **while loop** although I suppose a **for
 4! translates to 1 * 2 * 3 * 4
 
 To do this:
-1. Create a variable that increments from 1 up to and including the input number. In my solution below, I use ```i``` for this. (In the example above, this variable will serve as the 1, 2, 3, and 4)
-2. Create a variable that holds the current value at each step of the factorial. In my solution below, this is ```factorial```. (In the example above, this variable will hold the value of 1 * 2 (2). After being multiplied by 3, it will store the new value (6). Afer being multiplied by 4, 
-3. Multiply ```i``` by ```factorial```, store the product as ```factorial```, increment ```i``` by 1 (one), and repeat until ```i``` is equal to the input number.
+1. Create a variable that increments from 1 up to and including the input number. In my solution below, I use ```i``` for this. In the example above, this variable will serve as the 1, 2, 3, and 4.
+2. 
+3. Create a variable that holds the current value at each step of the factorial. In my solution below, this is ```factorial```. In the example above, this variable will hold the value of 1 * 2 (2). After being multiplied by 3, it will store the new value (6). Afer being multiplied by 4, store the product once again
+4. Multiply ```i``` by ```factorial```, store the product as ```factorial```, increment ```i``` by 1 (one), and repeat until ```i``` is equal to the input number.
 
 Note: You need to start with 1, no matter what, because the result of the factorializing process must equal at least 1. (If you want an explanation of why 0! = 1, [read this](http://mathforum.org/library/drmath/view/57128.html)). So that is why both ```i``` and ```factorial``` (or whatever your variables are called) need to be set at 1 (one), not 0 (zero).
 
@@ -58,4 +59,4 @@ function factorialize(num) {
 factorialize(2);
 {% endhighlight %}
 
-If this helped you out (or if you have any questions), leave a comment below! Next time, I'll be writing about "Check for Palindromes" and rabbit holes.
+If this helped you out (or if you have any questions), leave a comment below! Next time, I'll be writing about "Check for Palindromes" and the problem with overthinking things.
