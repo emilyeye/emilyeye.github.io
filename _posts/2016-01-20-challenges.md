@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Tackling FreeCodeCamp's Basic Algorithm Scripting Challenges: Reverse a String
+title:  Tackling FreeCodeCamp's Basic Algorithm Scripting Challenges
 date: 2016-01-20 23:22:00
 disqus: y
 ---
