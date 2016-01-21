@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  FreeCodeCamp - Reverse a String and Factorialize a Number
+title:  FreeCodeCamp basic algorithm challenges - Reverse a String and Factorialize a Number
 date: 2016-01-20 23:22:00
 disqus: y
 ---
