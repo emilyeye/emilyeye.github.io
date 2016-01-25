@@ -1,0 +1,70 @@
+---
+layout: post
+title:  Hello world! My introduction to coding
+date: 2016-01-09 22:51:00
+disqus: y
+---
+
+![asteroids game screenshot](/images/2016/1/asteroids.png)
+
+**Full disclosure:** This isn't my first time trying to learn to code.
+
+When I was a kid, my dad sat me and my brother down in front of QBasic and tried his best to keep our interest. Unfortunately for us, we were more interested in playing [Asteroids](http://www.freeasteroids.org/welcome/) and [the Ancient Art of War at Sea](https://en.wikipedia.org/wiki/The_Ancient_Art_of_War_at_Sea). In high school and college, I learned some very basic HTML. After undergrad, I took about half of a [Coursera](http://coursera.org) class on programming before I ran out of motivation. I never found it very hard, but I never got deep enough to really be challenged.
+
+So if all my previous attempts at coding have ended before anything really came of them, what's different this time?
+* I'm motivated. I'm not doing this because I'm bored or desperate or broke. I'm doing this because...
+* I have a vision. I think it's foolish to expect social services to work as they always have, and I want to be part of the evolution of the field.
+* I'm prepared. My previous attempts were great learning experiences, but I didn't have specific projects I could work on. Today, I manage a number of sites and pages and have plenty of practical opportunities for experimentation.
+
+## Why I chose FreeCodeCamp
+
+A few months back, I was checking the Facebook wall of a friend I hadn't seen in awhile (as it turns out, she was at a coding bootcamp at the time) and saw a link to a Lifehacker post: [Learn to Code for Free While Building Apps for Nonprofits](http://lifehacker.com/learn-to-code-for-free-while-building-apps-for-nonprofi-1716795686?utm_campaign=socialflow_lifehacker_facebook&utm_source=lifehacker_facebook&utm_medium=socialflow). I thought, "Hey, I work with a lot of nonprofits that could benefit from this," and went on my way.
+
+More recently, one of my workplaces got a new website. A Jekyll website. Hosted on Github. As the person in charge of maintaining the website, I was pretty fearful (I'm used to things like Wordpress, but this all seemed hopelessly confusing). I realized, though, after a quick orientation, that I kind of got it. I was able to make some changes to the CSS and even set up [another site](http://www.facialavm.com) based on a different Jekyll theme.
+
+Anyhow, I found myself on winter break wanting to learn something new and challenging. So here I am. I picked FreeCodeCamp for the opportunity to (eventually) do work for nonprofits. I also thought that its UI was more straightforward than other options like [CodeAcadamy](http://www.codeacademy.com) (That said, I do use CodeAcademy to flesh out and rehash what I've learned on FreeCodeCamp. Sometimes it helps to get a different perspective on the learning process).
+
+## My biggest challenge so far
+
+Over the last five days, I've breezed through HTML5, CSS, Bootstrap, jQuery, and just about the first half of the JavaScript section. Today, I ran into a problem that taught me a very important lesson.
+
+JavaScript Waypoint 50 (Global Scope and Functions) has very simple instructions:
+
+>Declare a global variable myGlobal outside of any function. Initialize it to have a value of 10
+
+>Inside function fun1, assign 5 to oopsGlobal without using the var keyword.
+
+### Here's my solution:
+
+{% highlight css %}
+#container {
+  float: left;
+  margin: 0 -240px 0 0;
+  width: 100%;
+}
+var myGlobal = 10;
+
+function fun1() {
+  oopsGlobal = 5; 
+}
+
+// Only change code above this line
+function fun2() {
+  var output = "";
+  if(typeof myGlobal != "undefined") {
+    output += "myGlobal: " + myGlobal;
+  }
+  if(typeof oopsGlobal != "undefined") {
+    output += " oopsGlobal: " + oopsGlobal;
+  }
+  console.log(output);
+}
+{% endhighlight %}
+
+Inexplicably, the console kept showing a "variable not defined" error. I was practically tearing my hair out until I finally asked for help from other campers. The solution? Refresh the page. My takeaway?
+
+## Ask for help!
+
+I mean, seriously, if I hadn't gone into that chatroom, I wouldn't have learned that I was experiencing a known issue with the FreeCodeCamp lessons. My solution was correct all along, but because of my stubbornness I spent an embarrassing amount of time trying to "fix" it.
+
+You can check out my profile on FreeCodeAcademy [here](http://www.freecodecamp.com/emilyeye) to see specific solutions.
