@@ -13,12 +13,12 @@ My brain works differently than other people's. Sometimes, that's a good thing. 
 
 Here, take a look at my code. This is the first solution I came up with.
 
-	{% highlight css %}
-	#container {
-	  float: left;
-	  margin: 0 -240px 0 0;
-	  width: 100%;
-	}
+{% highlight css %}
+#container {
+  float: left;
+  margin: 0 -240px 0 0;
+  width: 100%;
+}
 	longestWordLength = function(str) {
 		var longestWord = "";
 		var arrayedStr = str.split(' '); // add replace method
@@ -82,6 +82,30 @@ I'll just leave this right here...
 
 	longestWordLength("I am a banana");
 	{% endhighlight %}
+
+
+
+
+function findLongestWord(str) {
+    var longestWord = "";
+    var longestLength = longestWord.length;
+    var arrayedStr = str.split(' '); // add replace method
+ 
+  	for (var i = 0; i < arrayedStr.length; i++) {
+		if (arrayedStr[i].length > longestLength) {
+			longestWord = arrayedStr[i];
+            longestLength = arrayedStr[i].length;
+        }
+    }                    
+  return longestLength; 
+}
+
+findLongestWord("The quick brown fox jumped over the lazy dog");
+
+
+
+
+
 
 1. Creates a blank variable longestWord (which will eventually hold our longest word as a string)
 2. Takes our string, splits it at the spaces to create an array of individual words, removes all non-letter characters by replacing them with '' (nothing), and assigns the new array to a new variable, arrayedStr.
