@@ -149,3 +149,27 @@ findLongestWord("The quick brown fox jumped over the lazy dog");
 Did this post help you? Confuse you? Do you have a critique or a new perspective? I'd love to hear from you, and might even edit the post to include your feedback.
 
 You can check out my profile on FreeCodeAcademy [here](http://www.freecodecamp.com/emilyeye) to see more of my solutions.
+
+
+
+SEEK AND DESTROY old solution clunky tho
+function destroyer(arr) {
+
+  var victory = Array.prototype.slice.call(arguments[0]);
+  var arg1 = arguments[1];
+  var arg2 = arguments[2];
+  var arg3 = arguments[3];
+
+  function seeker(element) {
+    return element !== arg1 && element !== arg2 && element !== arg3;
+  }
+
+  return victory.filter(seeker);
+}
+
+destroyer([3,5,1,2,2], 2, 3, 5);
+
+
+
+
+
